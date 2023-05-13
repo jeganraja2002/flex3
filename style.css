@@ -1,0 +1,95 @@
+*{margin:0;
+padding:0;
+box-sizing:border-box;}
+
+.container{width:90%;
+margin:auto;}
+	
+
+.header{
+	padding-top:10px;
+	background: linear-gradient(rgb(1 12 86 / 56%),rgb(22 22 48 / 72%)), url(task4.jpg);
+	background-position:center;
+	background-size:cover;
+	height:100vh;}
+		  
+.flex{display:flex;
+   flex-wrap:wrap;
+}
+
+
+.flex2{display:flex;
+justify-content:space-evenly}
+
+
+.icon{font-size:40px;
+color:red;}
+
+span{color:white;}
+
+.col-1{width:30%;
+      padding:0px 10px;
+	  padding-top:10px}
+	 
+.col-2{width:70%;
+ padding:0px 10px;
+ padding-top:33px}
+ 
+ li{list-style-type:none;}
+ 
+ 
+ a{text-decoration:none;
+ color:white;
+ font-size:18px;}
+ 
+ hr{opacity:0;
+ border-color:red}
+ 
+ 
+a:hover {color:red;}
+
+hr:hover{opacity:1;}
+
+button {background-color:#f82249;
+border:2px solid;
+border-color:#f82249;
+border-radius:100px;
+padding:3px 15px; }
+
+
+.span{font-size:15px;}
+
+
+
+
+.span2{color:#f82249;
+font-size:50px}
+
+
+.align{display:flex;
+   	justify-content:center;
+	align-items:center;
+	color:white;
+    font-size:55px;
+	padding-top:130px;
+	font-family:"Raleway", sans-serif}
+
+
+.ann{text-align:center;}
+
+.north{padding-top:30px;
+	 color:white;
+    font-size:20px;
+	text-align:center;
+    font-family:Raleway, sans-serif;}
+	
+.icon2{color:#f82249;
+font-size:80px;
+padding-top:15px;
+padding-bottom:15px}
+
+
+
+#button{padding:10px 50px 10px 50px;}
+
+.button:hover #button{color:black}
